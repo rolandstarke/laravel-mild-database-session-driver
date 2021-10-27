@@ -4,7 +4,7 @@
 [![Latest Stable Version](https://poser.pugx.org/rolandstarke/laravel-mild-database-session-driver/v/stable)](https://packagist.org/packages/rolandstarke/laravel-mild-database-session-driver)
 [![LICENSE](https://img.shields.io/packagist/l/rolandstarke/laravel-mild-database-session-driver.svg)](https://github.com/rolandstarke/laravel-mild-database-session-driver/blob/master/LICENSE)
 
-Does the same as default database session driver with the benefit that the the session is only written to the database if it changed to reduce the database load.
+Session driver with less writes to the database. Does the same as default database session driver with the benefit that the session is only written to the database if it changed. Every 2 minutes the last activity is updated (instead of every request).
 
 ## Installation
 
