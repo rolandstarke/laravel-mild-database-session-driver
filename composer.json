@@ -1,0 +1,23 @@
+{
+    "name": "rolandstarke/laravel-mild-database-session-driver",
+    "description": "Laravel Mild Database Session Handler",
+    "keywords": ["laravel", "session", "database", "driver"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roland Starke"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rolandstarke\\MildDatabaseSession\\SessionServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Rolandstarke\\MildDatabaseSession\\": "src/"
+        }
+    }
+}
