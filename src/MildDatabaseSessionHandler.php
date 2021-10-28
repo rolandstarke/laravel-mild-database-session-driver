@@ -15,7 +15,7 @@ class MildDatabaseSessionHandler extends DatabaseSessionHandler
     const MINIMUM_UPDATE_INTERVAL = 120;
 
     /**
-     * session at read time, we can use it to campare if the new payload contains changes
+     * session at read time, we can use it to compare if the new payload contains changes
      */
     protected $origSession;
 
